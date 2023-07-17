@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-style {
+  @apply w-28 rounded-full font-medium border border-transparent hover:border-white hover:bg-transparent hover:text-white h-10 flex items-center justify-center text-center transition-all text-black bg-white;
+}
+
+.full-width {
+  @apply w-full;
+}
